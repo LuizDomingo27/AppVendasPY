@@ -1,0 +1,352 @@
+Id_pedido;Data_pedido;Ano;Id_representante;Nome_representante;Id_produto;Nome_produto;Valor_produto;Quantidade_vendida;Valor_total_venda;Nome_cliente;Cidade_cliente;Estado_cliente;Mes_num;Mes_ano;Mes_nome;Dia
+#P0001;2024-01-02;2024;1004;Isabela Carolina;SKU9015;Teclado ;80;44;3520;Ricardo Eletro;Vitória;ES;1;2024-01;Janeiro;2
+#P0002;2024-01-04;2024;1001;Maria Silva;SKU9008;Mouse;88;21;1848;Ricardo Eletro;Niterói;RJ;1;2024-01;Janeiro;4
+#P0003;2024-01-04;2024;1005;Tais Fernandes;SKU9014;Tablet;1700;47;79900;Casas Bahia;Rio de Janeiro;RJ;1;2024-01;Janeiro;4
+#P0004;2024-01-04;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;19;1045;Casas Bahia;Vitória;ES;1;2024-01;Janeiro;4
+#P0005;2024-01-04;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;26;111800;Ricardo Eletro;Campinas;SP;1;2024-01;Janeiro;4
+#P0006;2024-01-05;2024;1005;Tais Fernandes;SKU9003;Celular Modelo 1;800;33;26400;Ricardo Eletro;Belo Horizonte;MG;1;2024-01;Janeiro;5
+#P0007;2024-01-05;2024;1009;Felipe Seixas;SKU9015;Teclado ;80;31;2480;Kabum;Betim;MG;1;2024-01;Janeiro;5
+#P0008;2024-01-06;2024;1009;Felipe Seixas;SKU9013;SSD;435;19;8265;Amazon;Belo Horizonte;MG;1;2024-01;Janeiro;6
+#P0009;2024-01-09;2024;1007;Alex Souza;SKU9013;SSD;435;33;14355;Amazon;Rio de Janeiro;RJ;1;2024-01;Janeiro;9
+#P0010;2024-01-10;2024;1004;Isabela Carolina;SKU9008;Mouse;88;36;3168;Shoptime;São Paulo;SP;1;2024-01;Janeiro;10
+#P0011;2024-01-10;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;28;120400;Kabum;Betim;MG;1;2024-01;Janeiro;10
+#P0012;2024-01-12;2024;1009;Felipe Seixas;SKU9006;E-Reader;250;26;6500;Kabum;Betim;MG;1;2024-01;Janeiro;12
+#P0013;2024-01-13;2024;1002;Lucas Souza;SKU9008;Mouse;88;39;3432;Amazon;Betim;MG;1;2024-01;Janeiro;13
+#P0014;2024-01-13;2024;1009;Felipe Seixas;SKU9003;Celular Modelo 1;800;18;14400;Ponto Frio;Niterói;RJ;1;2024-01;Janeiro;13
+#P0015;2024-01-14;2024;1004;Isabela Carolina;SKU9012;Smart TV;1998;30;59940;Kabum;Rio de Janeiro;RJ;1;2024-01;Janeiro;14
+#P0016;2024-01-14;2024;1009;Felipe Seixas;SKU9007;Headphone;150;45;6750;Shoptime;São Paulo;SP;1;2024-01;Janeiro;14
+#P0017;2024-01-15;2024;1004;Isabela Carolina;SKU9005;Celular Modelo 3;1800;27;48600;Amazon;Rio de Janeiro;RJ;1;2024-01;Janeiro;15
+#P0018;2024-01-15;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;33;47850;Casas Bahia;Betim;MG;1;2024-01;Janeiro;15
+#P0019;2024-01-18;2024;1009;Felipe Seixas;SKU9010;Notebook Modelo 2;2220;40;88800;Ponto Frio;Betim;MG;1;2024-01;Janeiro;18
+#P0020;2024-01-19;2024;1007;Alex Souza;SKU9008;Mouse;88;22;1936;Ponto Frio;Rio de Janeiro;RJ;1;2024-01;Janeiro;19
+#P0021;2024-01-21;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;13;28860;Magazine Luiza;São Paulo;SP;1;2024-01;Janeiro;21
+#P0022;2024-01-23;2024;1001;Maria Silva;SKU9002;Carregador Portátil;80;34;2720;Carrefour;Campinas;SP;1;2024-01;Janeiro;23
+#P0023;2024-01-25;2024;1006;Mário Junior;SKU9001;Caixa de Som;55;48;2640;Casas Bahia;Rio de Janeiro;RJ;1;2024-01;Janeiro;25
+#P0024;2024-01-25;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;40;172000;Amazon;Rio de Janeiro;RJ;1;2024-01;Janeiro;25
+#P0025;2024-01-25;2024;1009;Felipe Seixas;SKU9002;Carregador Portátil;80;23;1840;Casas Bahia;Betim;MG;1;2024-01;Janeiro;25
+#P0026;2024-01-27;2024;1006;Mário Junior;SKU9002;Carregador Portátil;80;39;3120;Carrefour;Belo Horizonte;MG;1;2024-01;Janeiro;27
+#P0027;2024-01-27;2024;1003;Paulo Ferreira;SKU9007;Headphone;150;28;4200;Carrefour;São Paulo;SP;1;2024-01;Janeiro;27
+#P0028;2024-01-28;2024;1008;Teobaldo Junior;SKU9016;Webcam;130;19;2470;Magazine Luiza;Campinas;SP;1;2024-01;Janeiro;28
+#P0029;2024-01-28;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;26;111800;Carrefour;Niterói;RJ;1;2024-01;Janeiro;28
+#P0030;2024-01-30;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;15;33300;Ricardo Eletro;Rio de Janeiro;RJ;1;2024-01;Janeiro;30
+#P0031;2024-01-30;2024;1007;Alex Souza;SKU9001;Caixa de Som;55;28;1540;Kabum;Guarapari;ES;1;2024-01;Janeiro;30
+#P0032;2024-01-30;2024;1002;Lucas Souza;SKU9011;Notebook Modelo 3;4300;35;150500;Carrefour;Rio de Janeiro;RJ;1;2024-01;Janeiro;30
+#P0033;2024-02-01;2024;1009;Felipe Seixas;SKU9010;Notebook Modelo 2;2220;13;28860;Ricardo Eletro;Betim;MG;2;2024-02;Fevereiro;1
+#P0034;2024-02-02;2024;1007;Alex Souza;SKU9013;SSD;435;28;12180;Carrefour;Guarapari;ES;2;2024-02;Fevereiro;2
+#P0035;2024-02-02;2024;1005;Tais Fernandes;SKU9007;Headphone;150;32;4800;Shoptime;Niterói;RJ;2;2024-02;Fevereiro;2
+#P0036;2024-02-04;2024;1002;Lucas Souza;SKU9008;Mouse;88;48;4224;Ricardo Eletro;Belo Horizonte;MG;2;2024-02;Fevereiro;4
+#P0037;2024-02-05;2024;1008;Teobaldo Junior;SKU9009;Notebook Modelo 1;1450;44;63800;Shoptime;Niterói;RJ;2;2024-02;Fevereiro;5
+#P0038;2024-02-05;2024;1003;Paulo Ferreira;SKU9011;Notebook Modelo 3;4300;33;141900;Magazine Luiza;Betim;MG;2;2024-02;Fevereiro;5
+#P0039;2024-02-08;2024;1009;Felipe Seixas;SKU9002;Carregador Portátil;80;44;3520;Magazine Luiza;Rio de Janeiro;RJ;2;2024-02;Fevereiro;8
+#P0040;2024-02-09;2024;1002;Lucas Souza;SKU9003;Celular Modelo 1;800;16;12800;Shoptime;Vitória;ES;2;2024-02;Fevereiro;9
+#P0041;2024-02-09;2024;1002;Lucas Souza;SKU9005;Celular Modelo 3;1800;29;52200;Shoptime;Betim;MG;2;2024-02;Fevereiro;9
+#P0042;2024-02-09;2024;1003;Paulo Ferreira;SKU9016;Webcam;130;23;2990;Amazon;Rio de Janeiro;RJ;2;2024-02;Fevereiro;9
+#P0043;2024-02-10;2024;1001;Maria Silva;SKU9011;Notebook Modelo 3;4300;43;184900;Ponto Frio;Belo Horizonte;MG;2;2024-02;Fevereiro;10
+#P0044;2024-02-12;2024;1009;Felipe Seixas;SKU9012;Smart TV;1998;31;61938;Ponto Frio;Niterói;RJ;2;2024-02;Fevereiro;12
+#P0045;2024-02-13;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;26;57720;Shoptime;Niterói;RJ;2;2024-02;Fevereiro;13
+#P0046;2024-02-14;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;11;47300;Amazon;Rio de Janeiro;RJ;2;2024-02;Fevereiro;14
+#P0047;2024-02-14;2024;1006;Mário Junior;SKU9008;Mouse;88;43;3784;Casas Bahia;Vitória;ES;2;2024-02;Fevereiro;14
+#P0048;2024-02-14;2024;1002;Lucas Souza;SKU9012;Smart TV;1998;45;89910;Casas Bahia;Rio de Janeiro;RJ;2;2024-02;Fevereiro;14
+#P0049;2024-02-15;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;50;72500;Shoptime;Betim;MG;2;2024-02;Fevereiro;15
+#P0050;2024-02-15;2024;1003;Paulo Ferreira;SKU9011;Notebook Modelo 3;4300;45;193500;Kabum;Vitória;ES;2;2024-02;Fevereiro;15
+#P0051;2024-02-16;2024;1008;Teobaldo Junior;SKU9004;Celular Modelo 2;1200;37;44400;Carrefour;Betim;MG;2;2024-02;Fevereiro;16
+#P0052;2024-02-17;2024;1009;Felipe Seixas;SKU9007;Headphone;150;18;2700;Ponto Frio;Vitória;ES;2;2024-02;Fevereiro;17
+#P0053;2024-02-18;2024;1009;Felipe Seixas;SKU9010;Notebook Modelo 2;2220;37;82140;Amazon;Rio de Janeiro;RJ;2;2024-02;Fevereiro;18
+#P0054;2024-02-19;2024;1001;Maria Silva;SKU9014;Tablet;1700;13;22100;Amazon;Betim;MG;2;2024-02;Fevereiro;19
+#P0055;2024-02-20;2024;1002;Lucas Souza;SKU9008;Mouse;88;42;3696;Kabum;Campinas;SP;2;2024-02;Fevereiro;20
+#P0056;2024-02-20;2024;1001;Maria Silva;SKU9003;Celular Modelo 1;800;21;16800;Amazon;Belo Horizonte;MG;2;2024-02;Fevereiro;20
+#P0057;2024-02-24;2024;1004;Isabela Carolina;SKU9011;Notebook Modelo 3;4300;47;202100;Ponto Frio;Rio de Janeiro;RJ;2;2024-02;Fevereiro;24
+#P0058;2024-02-27;2024;1001;Maria Silva;SKU9012;Smart TV;1998;47;93906;Shoptime;Rio de Janeiro;RJ;2;2024-02;Fevereiro;27
+#P0059;2024-02-27;2024;1005;Tais Fernandes;SKU9010;Notebook Modelo 2;2220;42;93240;Shoptime;Rio de Janeiro;RJ;2;2024-02;Fevereiro;27
+#P0060;2024-02-28;2024;1002;Lucas Souza;SKU9014;Tablet;1700;21;35700;Ricardo Eletro;Rio de Janeiro;RJ;2;2024-02;Fevereiro;28
+#P0061;2024-02-29;2024;1001;Maria Silva;SKU9011;Notebook Modelo 3;4300;44;189200;Carrefour;Belo Horizonte;MG;2;2024-02;Fevereiro;29
+#P0062;2024-03-03;2024;1009;Felipe Seixas;SKU9014;Tablet;1700;14;23800;Casas Bahia;Campinas;SP;3;2024-03;Março;3
+#P0063;2024-03-05;2024;1005;Tais Fernandes;SKU9006;E-Reader;250;43;10750;Casas Bahia;Guarapari;ES;3;2024-03;Março;5
+#P0064;2024-03-07;2024;1006;Mário Junior;SKU9010;Notebook Modelo 2;2220;36;79920;Kabum;Rio de Janeiro;RJ;3;2024-03;Março;7
+#P0065;2024-03-07;2024;1003;Paulo Ferreira;SKU9009;Notebook Modelo 1;1450;18;26100;Ponto Frio;Belo Horizonte;MG;3;2024-03;Março;7
+#P0066;2024-03-11;2024;1009;Felipe Seixas;SKU9010;Notebook Modelo 2;2220;34;75480;Kabum;Rio de Janeiro;RJ;3;2024-03;Março;11
+#P0067;2024-03-11;2024;1005;Tais Fernandes;SKU9011;Notebook Modelo 3;4300;26;111800;Casas Bahia;São Paulo;SP;3;2024-03;Março;11
+#P0068;2024-03-11;2024;1005;Tais Fernandes;SKU9013;SSD;435;25;10875;Carrefour;São Paulo;SP;3;2024-03;Março;11
+#P0069;2024-03-12;2024;1002;Lucas Souza;SKU9013;SSD;435;20;8700;Kabum;Rio de Janeiro;RJ;3;2024-03;Março;12
+#P0070;2024-03-13;2024;1007;Alex Souza;SKU9014;Tablet;1700;43;73100;Amazon;Rio de Janeiro;RJ;3;2024-03;Março;13
+#P0071;2024-03-13;2024;1003;Paulo Ferreira;SKU9007;Headphone;150;11;1650;Amazon;Niterói;RJ;3;2024-03;Março;13
+#P0072;2024-03-14;2024;1008;Teobaldo Junior;SKU9016;Webcam;130;10;1300;Ponto Frio;Vitória;ES;3;2024-03;Março;14
+#P0073;2024-03-14;2024;1009;Felipe Seixas;SKU9002;Carregador Portátil;80;40;3200;Ricardo Eletro;Niterói;RJ;3;2024-03;Março;14
+#P0074;2024-03-15;2024;1004;Isabela Carolina;SKU9012;Smart TV;1998;14;27972;Shoptime;Vitória;ES;3;2024-03;Março;15
+#P0075;2024-03-16;2024;1008;Teobaldo Junior;SKU9015;Teclado ;80;41;3280;Magazine Luiza;Rio de Janeiro;RJ;3;2024-03;Março;16
+#P0076;2024-03-17;2024;1006;Mário Junior;SKU9008;Mouse;88;35;3080;Kabum;Niterói;RJ;3;2024-03;Março;17
+#P0077;2024-03-19;2024;1002;Lucas Souza;SKU9004;Celular Modelo 2;1200;45;54000;Shoptime;Rio de Janeiro;RJ;3;2024-03;Março;19
+#P0078;2024-03-19;2024;1005;Tais Fernandes;SKU9012;Smart TV;1998;14;27972;Carrefour;Vitória;ES;3;2024-03;Março;19
+#P0079;2024-03-20;2024;1001;Maria Silva;SKU9016;Webcam;130;12;1560;Ricardo Eletro;Vitória;ES;3;2024-03;Março;20
+#P0080;2024-03-20;2024;1009;Felipe Seixas;SKU9002;Carregador Portátil;80;10;800;Casas Bahia;Betim;MG;3;2024-03;Março;20
+#P0081;2024-03-25;2024;1005;Tais Fernandes;SKU9010;Notebook Modelo 2;2220;43;95460;Ricardo Eletro;Guarapari;ES;3;2024-03;Março;25
+#P0082;2024-03-26;2024;1005;Tais Fernandes;SKU9014;Tablet;1700;43;73100;Ponto Frio;Betim;MG;3;2024-03;Março;26
+#P0083;2024-03-26;2024;1004;Isabela Carolina;SKU9016;Webcam;130;42;5460;Ricardo Eletro;São Paulo;SP;3;2024-03;Março;26
+#P0084;2024-03-27;2024;1002;Lucas Souza;SKU9002;Carregador Portátil;80;45;3600;Ricardo Eletro;Vitória;ES;3;2024-03;Março;27
+#P0085;2024-03-29;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;45;54000;Ponto Frio;Rio de Janeiro;RJ;3;2024-03;Março;29
+#P0086;2024-03-29;2024;1001;Maria Silva;SKU9015;Teclado ;80;30;2400;Amazon;Campinas;SP;3;2024-03;Março;29
+#P0087;2024-03-30;2024;1004;Isabela Carolina;SKU9006;E-Reader;250;19;4750;Ricardo Eletro;Belo Horizonte;MG;3;2024-03;Março;30
+#P0088;2024-03-30;2024;1004;Isabela Carolina;SKU9005;Celular Modelo 3;1800;26;46800;Carrefour;Guarapari;ES;3;2024-03;Março;30
+#P0089;2024-04-01;2024;1004;Isabela Carolina;SKU9010;Notebook Modelo 2;2220;39;86580;Carrefour;Betim;MG;4;2024-04;Abril;1
+#P0090;2024-04-05;2024;1003;Paulo Ferreira;SKU9014;Tablet;1700;17;28900;Casas Bahia;Guarapari;ES;4;2024-04;Abril;5
+#P0091;2024-04-05;2024;1001;Maria Silva;SKU9005;Celular Modelo 3;1800;40;72000;Casas Bahia;Vitória;ES;4;2024-04;Abril;5
+#P0092;2024-04-07;2024;1006;Mário Junior;SKU9003;Celular Modelo 1;800;36;28800;Shoptime;São Paulo;SP;4;2024-04;Abril;7
+#P0093;2024-04-08;2024;1001;Maria Silva;SKU9002;Carregador Portátil;80;11;880;Amazon;Campinas;SP;4;2024-04;Abril;8
+#P0094;2024-04-12;2024;1001;Maria Silva;SKU9009;Notebook Modelo 1;1450;50;72500;Ricardo Eletro;Campinas;SP;4;2024-04;Abril;12
+#P0095;2024-04-14;2024;1008;Teobaldo Junior;SKU9001;Caixa de Som;55;26;1430;Ricardo Eletro;São Paulo;SP;4;2024-04;Abril;14
+#P0096;2024-04-15;2024;1008;Teobaldo Junior;SKU9009;Notebook Modelo 1;1450;33;47850;Casas Bahia;Guarapari;ES;4;2024-04;Abril;15
+#P0097;2024-04-17;2024;1002;Lucas Souza;SKU9011;Notebook Modelo 3;4300;28;120400;Amazon;Vitória;ES;4;2024-04;Abril;17
+#P0098;2024-04-18;2024;1009;Felipe Seixas;SKU9001;Caixa de Som;55;13;715;Amazon;Guarapari;ES;4;2024-04;Abril;18
+#P0099;2024-04-18;2024;1003;Paulo Ferreira;SKU9001;Caixa de Som;55;50;2750;Ponto Frio;Niterói;RJ;4;2024-04;Abril;18
+#P0100;2024-04-18;2024;1001;Maria Silva;SKU9003;Celular Modelo 1;800;26;20800;Kabum;São Paulo;SP;4;2024-04;Abril;18
+#P0101;2024-04-20;2024;1009;Felipe Seixas;SKU9003;Celular Modelo 1;800;26;20800;Kabum;Guarapari;ES;4;2024-04;Abril;20
+#P0102;2024-04-20;2024;1004;Isabela Carolina;SKU9009;Notebook Modelo 1;1450;22;31900;Amazon;Vitória;ES;4;2024-04;Abril;20
+#P0103;2024-04-21;2024;1009;Felipe Seixas;SKU9015;Teclado ;80;43;3440;Ricardo Eletro;Niterói;RJ;4;2024-04;Abril;21
+#P0104;2024-04-22;2024;1005;Tais Fernandes;SKU9006;E-Reader;250;39;9750;Carrefour;Betim;MG;4;2024-04;Abril;22
+#P0105;2024-04-22;2024;1008;Teobaldo Junior;SKU9002;Carregador Portátil;80;25;2000;Casas Bahia;Betim;MG;4;2024-04;Abril;22
+#P0106;2024-04-23;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;48;57600;Carrefour;Vitória;ES;4;2024-04;Abril;23
+#P0107;2024-04-23;2024;1009;Felipe Seixas;SKU9009;Notebook Modelo 1;1450;15;21750;Casas Bahia;Guarapari;ES;4;2024-04;Abril;23
+#P0108;2024-04-24;2024;1009;Felipe Seixas;SKU9003;Celular Modelo 1;800;24;19200;Casas Bahia;São Paulo;SP;4;2024-04;Abril;24
+#P0109;2024-04-26;2024;1006;Mário Junior;SKU9002;Carregador Portátil;80;17;1360;Amazon;São Paulo;SP;4;2024-04;Abril;26
+#P0110;2024-04-26;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;11;13200;Amazon;Vitória;ES;4;2024-04;Abril;26
+#P0111;2024-04-27;2024;1003;Paulo Ferreira;SKU9012;Smart TV;1998;24;47952;Ponto Frio;Guarapari;ES;4;2024-04;Abril;27
+#P0112;2024-04-28;2024;1008;Teobaldo Junior;SKU9007;Headphone;150;27;4050;Shoptime;Belo Horizonte;MG;4;2024-04;Abril;28
+#P0113;2024-04-29;2024;1002;Lucas Souza;SKU9008;Mouse;88;42;3696;Casas Bahia;Guarapari;ES;4;2024-04;Abril;29
+#P0114;2024-04-30;2024;1002;Lucas Souza;SKU9007;Headphone;150;19;2850;Magazine Luiza;Belo Horizonte;MG;4;2024-04;Abril;30
+#P0115;2024-04-30;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;40;2200;Ricardo Eletro;São Paulo;SP;4;2024-04;Abril;30
+#P0116;2024-05-01;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;46;55200;Shoptime;Betim;MG;5;2024-05;Maio;1
+#P0117;2024-05-01;2024;1002;Lucas Souza;SKU9005;Celular Modelo 3;1800;15;27000;Shoptime;Campinas;SP;5;2024-05;Maio;1
+#P0118;2024-05-02;2024;1002;Lucas Souza;SKU9014;Tablet;1700;21;35700;Magazine Luiza;Betim;MG;5;2024-05;Maio;2
+#P0119;2024-05-02;2024;1007;Alex Souza;SKU9005;Celular Modelo 3;1800;28;50400;Shoptime;Niterói;RJ;5;2024-05;Maio;2
+#P0120;2024-05-03;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;12;17400;Ricardo Eletro;Guarapari;ES;5;2024-05;Maio;3
+#P0121;2024-05-04;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;48;2640;Carrefour;São Paulo;SP;5;2024-05;Maio;4
+#P0122;2024-05-06;2024;1004;Isabela Carolina;SKU9012;Smart TV;1998;50;99900;Carrefour;Niterói;RJ;5;2024-05;Maio;6
+#P0123;2024-05-07;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;21;90300;Magazine Luiza;Campinas;SP;5;2024-05;Maio;7
+#P0124;2024-05-09;2024;1002;Lucas Souza;SKU9007;Headphone;150;19;2850;Shoptime;Rio de Janeiro;RJ;5;2024-05;Maio;9
+#P0125;2024-05-11;2024;1002;Lucas Souza;SKU9003;Celular Modelo 1;800;20;16000;Ponto Frio;São Paulo;SP;5;2024-05;Maio;11
+#P0126;2024-05-11;2024;1006;Mário Junior;SKU9006;E-Reader;250;34;8500;Carrefour;Rio de Janeiro;RJ;5;2024-05;Maio;11
+#P0127;2024-05-14;2024;1006;Mário Junior;SKU9006;E-Reader;250;20;5000;Ponto Frio;São Paulo;SP;5;2024-05;Maio;14
+#P0128;2024-05-14;2024;1002;Lucas Souza;SKU9007;Headphone;150;27;4050;Ricardo Eletro;São Paulo;SP;5;2024-05;Maio;14
+#P0129;2024-05-16;2024;1009;Felipe Seixas;SKU9004;Celular Modelo 2;1200;27;32400;Ponto Frio;São Paulo;SP;5;2024-05;Maio;16
+#P0130;2024-05-18;2024;1008;Teobaldo Junior;SKU9003;Celular Modelo 1;800;18;14400;Kabum;Campinas;SP;5;2024-05;Maio;18
+#P0131;2024-05-19;2024;1004;Isabela Carolina;SKU9005;Celular Modelo 3;1800;42;75600;Amazon;Niterói;RJ;5;2024-05;Maio;19
+#P0132;2024-05-20;2024;1005;Tais Fernandes;SKU9001;Caixa de Som;55;13;715;Magazine Luiza;Rio de Janeiro;RJ;5;2024-05;Maio;20
+#P0133;2024-05-22;2024;1009;Felipe Seixas;SKU9013;SSD;435;13;5655;Magazine Luiza;Niterói;RJ;5;2024-05;Maio;22
+#P0134;2024-05-23;2024;1004;Isabela Carolina;SKU9014;Tablet;1700;20;34000;Carrefour;Belo Horizonte;MG;5;2024-05;Maio;23
+#P0135;2024-05-23;2024;1004;Isabela Carolina;SKU9002;Carregador Portátil;80;26;2080;Casas Bahia;Betim;MG;5;2024-05;Maio;23
+#P0136;2024-05-25;2024;1001;Maria Silva;SKU9015;Teclado ;80;40;3200;Shoptime;São Paulo;SP;5;2024-05;Maio;25
+#P0137;2024-05-25;2024;1005;Tais Fernandes;SKU9011;Notebook Modelo 3;4300;47;202100;Amazon;Betim;MG;5;2024-05;Maio;25
+#P0138;2024-05-27;2024;1002;Lucas Souza;SKU9011;Notebook Modelo 3;4300;44;189200;Shoptime;Rio de Janeiro;RJ;5;2024-05;Maio;27
+#P0139;2024-05-28;2024;1008;Teobaldo Junior;SKU9016;Webcam;130;20;2600;Amazon;Betim;MG;5;2024-05;Maio;28
+#P0140;2024-05-28;2024;1007;Alex Souza;SKU9001;Caixa de Som;55;11;605;Ricardo Eletro;Belo Horizonte;MG;5;2024-05;Maio;28
+#P0141;2024-05-29;2024;1003;Paulo Ferreira;SKU9001;Caixa de Som;55;17;935;Ricardo Eletro;Guarapari;ES;5;2024-05;Maio;29
+#P0142;2024-05-29;2024;1006;Mário Junior;SKU9012;Smart TV;1998;13;25974;Casas Bahia;Rio de Janeiro;RJ;5;2024-05;Maio;29
+#P0143;2024-05-29;2024;1004;Isabela Carolina;SKU9003;Celular Modelo 1;800;48;38400;Ponto Frio;Campinas;SP;5;2024-05;Maio;29
+#P0144;2024-05-31;2024;1001;Maria Silva;SKU9007;Headphone;150;34;5100;Carrefour;Belo Horizonte;MG;5;2024-05;Maio;31
+#P0145;2024-05-31;2024;1006;Mário Junior;SKU9010;Notebook Modelo 2;2220;17;37740;Ricardo Eletro;Rio de Janeiro;RJ;5;2024-05;Maio;31
+#P0146;2024-06-04;2024;1001;Maria Silva;SKU9015;Teclado ;80;10;800;Carrefour;Rio de Janeiro;RJ;6;2024-06;Junho;4
+#P0147;2024-06-05;2024;1005;Tais Fernandes;SKU9003;Celular Modelo 1;800;33;26400;Shoptime;Rio de Janeiro;RJ;6;2024-06;Junho;5
+#P0148;2024-06-08;2024;1002;Lucas Souza;SKU9003;Celular Modelo 1;800;45;36000;Ponto Frio;Belo Horizonte;MG;6;2024-06;Junho;8
+#P0149;2024-06-09;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;39;46800;Carrefour;Rio de Janeiro;RJ;6;2024-06;Junho;9
+#P0150;2024-06-09;2024;1008;Teobaldo Junior;SKU9003;Celular Modelo 1;800;45;36000;Magazine Luiza;Vitória;ES;6;2024-06;Junho;9
+#P0151;2024-06-11;2024;1006;Mário Junior;SKU9015;Teclado ;80;42;3360;Ricardo Eletro;Belo Horizonte;MG;6;2024-06;Junho;11
+#P0152;2024-06-12;2024;1003;Paulo Ferreira;SKU9011;Notebook Modelo 3;4300;36;154800;Magazine Luiza;Campinas;SP;6;2024-06;Junho;12
+#P0153;2024-06-12;2024;1009;Felipe Seixas;SKU9005;Celular Modelo 3;1800;46;82800;Magazine Luiza;Vitória;ES;6;2024-06;Junho;12
+#P0154;2024-06-13;2024;1003;Paulo Ferreira;SKU9016;Webcam;130;19;2470;Ricardo Eletro;Vitória;ES;6;2024-06;Junho;13
+#P0155;2024-06-15;2024;1004;Isabela Carolina;SKU9009;Notebook Modelo 1;1450;50;72500;Magazine Luiza;Rio de Janeiro;RJ;6;2024-06;Junho;15
+#P0156;2024-06-15;2024;1009;Felipe Seixas;SKU9016;Webcam;130;38;4940;Ricardo Eletro;São Paulo;SP;6;2024-06;Junho;15
+#P0157;2024-06-16;2024;1001;Maria Silva;SKU9006;E-Reader;250;29;7250;Casas Bahia;Campinas;SP;6;2024-06;Junho;16
+#P0158;2024-06-17;2024;1002;Lucas Souza;SKU9014;Tablet;1700;29;49300;Kabum;São Paulo;SP;6;2024-06;Junho;17
+#P0159;2024-06-18;2024;1007;Alex Souza;SKU9012;Smart TV;1998;33;65934;Magazine Luiza;Niterói;RJ;6;2024-06;Junho;18
+#P0160;2024-06-18;2024;1006;Mário Junior;SKU9002;Carregador Portátil;80;26;2080;Casas Bahia;São Paulo;SP;6;2024-06;Junho;18
+#P0161;2024-06-19;2024;1008;Teobaldo Junior;SKU9007;Headphone;150;50;7500;Shoptime;Guarapari;ES;6;2024-06;Junho;19
+#P0162;2024-06-19;2024;1004;Isabela Carolina;SKU9002;Carregador Portátil;80;11;880;Ricardo Eletro;Belo Horizonte;MG;6;2024-06;Junho;19
+#P0163;2024-06-20;2024;1008;Teobaldo Junior;SKU9005;Celular Modelo 3;1800;16;28800;Magazine Luiza;Belo Horizonte;MG;6;2024-06;Junho;20
+#P0164;2024-06-21;2024;1001;Maria Silva;SKU9010;Notebook Modelo 2;2220;47;104340;Casas Bahia;Rio de Janeiro;RJ;6;2024-06;Junho;21
+#P0165;2024-06-21;2024;1007;Alex Souza;SKU9012;Smart TV;1998;30;59940;Magazine Luiza;Rio de Janeiro;RJ;6;2024-06;Junho;21
+#P0166;2024-06-22;2024;1001;Maria Silva;SKU9003;Celular Modelo 1;800;50;40000;Carrefour;Rio de Janeiro;RJ;6;2024-06;Junho;22
+#P0167;2024-06-23;2024;1002;Lucas Souza;SKU9014;Tablet;1700;41;69700;Kabum;Belo Horizonte;MG;6;2024-06;Junho;23
+#P0168;2024-06-24;2024;1003;Paulo Ferreira;SKU9003;Celular Modelo 1;800;46;36800;Kabum;Vitória;ES;6;2024-06;Junho;24
+#P0169;2024-06-26;2024;1009;Felipe Seixas;SKU9006;E-Reader;250;40;10000;Kabum;Vitória;ES;6;2024-06;Junho;26
+#P0170;2024-06-26;2024;1008;Teobaldo Junior;SKU9015;Teclado ;80;47;3760;Casas Bahia;Campinas;SP;6;2024-06;Junho;26
+#P0171;2024-06-27;2024;1001;Maria Silva;SKU9012;Smart TV;1998;44;87912;Carrefour;Guarapari;ES;6;2024-06;Junho;27
+#P0172;2024-06-27;2024;1001;Maria Silva;SKU9014;Tablet;1700;14;23800;Ricardo Eletro;Niterói;RJ;6;2024-06;Junho;27
+#P0173;2024-06-28;2024;1005;Tais Fernandes;SKU9002;Carregador Portátil;80;28;2240;Casas Bahia;Betim;MG;6;2024-06;Junho;28
+#P0174;2024-06-29;2024;1008;Teobaldo Junior;SKU9015;Teclado ;80;42;3360;Ponto Frio;Guarapari;ES;6;2024-06;Junho;29
+#P0175;2024-06-30;2024;1006;Mário Junior;SKU9009;Notebook Modelo 1;1450;38;55100;Magazine Luiza;Guarapari;ES;6;2024-06;Junho;30
+#P0176;2024-06-30;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;25;1375;Magazine Luiza;Belo Horizonte;MG;6;2024-06;Junho;30
+#P0177;2024-06-30;2024;1007;Alex Souza;SKU9002;Carregador Portátil;80;45;3600;Ponto Frio;Guarapari;ES;6;2024-06;Junho;30
+#P0178;2024-07-02;2024;1008;Teobaldo Junior;SKU9009;Notebook Modelo 1;1450;19;27550;Casas Bahia;Vitória;ES;7;2024-07;Julho;2
+#P0179;2024-07-02;2024;1007;Alex Souza;SKU9013;SSD;435;33;14355;Casas Bahia;Belo Horizonte;MG;7;2024-07;Julho;2
+#P0180;2024-07-03;2024;1003;Paulo Ferreira;SKU9002;Carregador Portátil;80;47;3760;Ricardo Eletro;Betim;MG;7;2024-07;Julho;3
+#P0181;2024-07-04;2024;1007;Alex Souza;SKU9013;SSD;435;37;16095;Casas Bahia;Vitória;ES;7;2024-07;Julho;4
+#P0182;2024-07-05;2024;1005;Tais Fernandes;SKU9010;Notebook Modelo 2;2220;45;99900;Casas Bahia;São Paulo;SP;7;2024-07;Julho;5
+#P0183;2024-07-05;2024;1001;Maria Silva;SKU9005;Celular Modelo 3;1800;50;90000;Ricardo Eletro;Rio de Janeiro;RJ;7;2024-07;Julho;5
+#P0184;2024-07-06;2024;1002;Lucas Souza;SKU9008;Mouse;88;42;3696;Ricardo Eletro;Guarapari;ES;7;2024-07;Julho;6
+#P0185;2024-07-08;2024;1008;Teobaldo Junior;SKU9011;Notebook Modelo 3;4300;44;189200;Kabum;Rio de Janeiro;RJ;7;2024-07;Julho;8
+#P0186;2024-07-09;2024;1005;Tais Fernandes;SKU9004;Celular Modelo 2;1200;44;52800;Casas Bahia;Guarapari;ES;7;2024-07;Julho;9
+#P0187;2024-07-09;2024;1003;Paulo Ferreira;SKU9002;Carregador Portátil;80;34;2720;Kabum;Guarapari;ES;7;2024-07;Julho;9
+#P0188;2024-07-09;2024;1008;Teobaldo Junior;SKU9007;Headphone;150;15;2250;Ricardo Eletro;Niterói;RJ;7;2024-07;Julho;9
+#P0189;2024-07-11;2024;1002;Lucas Souza;SKU9007;Headphone;150;20;3000;Carrefour;Rio de Janeiro;RJ;7;2024-07;Julho;11
+#P0190;2024-07-12;2024;1005;Tais Fernandes;SKU9007;Headphone;150;36;5400;Shoptime;Guarapari;ES;7;2024-07;Julho;12
+#P0191;2024-07-13;2024;1001;Maria Silva;SKU9014;Tablet;1700;24;40800;Kabum;Belo Horizonte;MG;7;2024-07;Julho;13
+#P0192;2024-07-15;2024;1003;Paulo Ferreira;SKU9008;Mouse;88;41;3608;Kabum;Campinas;SP;7;2024-07;Julho;15
+#P0193;2024-07-15;2024;1005;Tais Fernandes;SKU9006;E-Reader;250;17;4250;Magazine Luiza;São Paulo;SP;7;2024-07;Julho;15
+#P0194;2024-07-17;2024;1008;Teobaldo Junior;SKU9003;Celular Modelo 1;800;44;35200;Carrefour;Rio de Janeiro;RJ;7;2024-07;Julho;17
+#P0195;2024-07-18;2024;1009;Felipe Seixas;SKU9005;Celular Modelo 3;1800;26;46800;Ricardo Eletro;Betim;MG;7;2024-07;Julho;18
+#P0196;2024-07-20;2024;1001;Maria Silva;SKU9005;Celular Modelo 3;1800;23;41400;Amazon;Rio de Janeiro;RJ;7;2024-07;Julho;20
+#P0197;2024-07-21;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;24;103200;Carrefour;Belo Horizonte;MG;7;2024-07;Julho;21
+#P0198;2024-07-21;2024;1004;Isabela Carolina;SKU9013;SSD;435;43;18705;Ricardo Eletro;Rio de Janeiro;RJ;7;2024-07;Julho;21
+#P0199;2024-07-24;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;49;108780;Amazon;Rio de Janeiro;RJ;7;2024-07;Julho;24
+#P0200;2024-07-26;2024;1008;Teobaldo Junior;SKU9001;Caixa de Som;55;29;1595;Ricardo Eletro;Belo Horizonte;MG;7;2024-07;Julho;26
+#P0201;2024-07-28;2024;1003;Paulo Ferreira;SKU9002;Carregador Portátil;80;27;2160;Casas Bahia;Rio de Janeiro;RJ;7;2024-07;Julho;28
+#P0202;2024-07-30;2024;1005;Tais Fernandes;SKU9005;Celular Modelo 3;1800;33;59400;Ponto Frio;Niterói;RJ;7;2024-07;Julho;30
+#P0203;2024-08-03;2024;1001;Maria Silva;SKU9004;Celular Modelo 2;1200;27;32400;Magazine Luiza;Niterói;RJ;8;2024-08;Agosto;3
+#P0204;2024-08-06;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;30;129000;Ponto Frio;Rio de Janeiro;RJ;8;2024-08;Agosto;6
+#P0205;2024-08-07;2024;1002;Lucas Souza;SKU9007;Headphone;150;24;3600;Magazine Luiza;Guarapari;ES;8;2024-08;Agosto;7
+#P0206;2024-08-08;2024;1003;Paulo Ferreira;SKU9014;Tablet;1700;32;54400;Magazine Luiza;Belo Horizonte;MG;8;2024-08;Agosto;8
+#P0207;2024-08-10;2024;1003;Paulo Ferreira;SKU9009;Notebook Modelo 1;1450;12;17400;Kabum;Vitória;ES;8;2024-08;Agosto;10
+#P0208;2024-08-12;2024;1006;Mário Junior;SKU9009;Notebook Modelo 1;1450;22;31900;Casas Bahia;Vitória;ES;8;2024-08;Agosto;12
+#P0209;2024-08-12;2024;1001;Maria Silva;SKU9011;Notebook Modelo 3;4300;13;55900;Kabum;Belo Horizonte;MG;8;2024-08;Agosto;12
+#P0210;2024-08-13;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;14;16800;Kabum;Vitória;ES;8;2024-08;Agosto;13
+#P0211;2024-08-14;2024;1008;Teobaldo Junior;SKU9015;Teclado ;80;22;1760;Carrefour;Guarapari;ES;8;2024-08;Agosto;14
+#P0212;2024-08-16;2024;1004;Isabela Carolina;SKU9006;E-Reader;250;23;5750;Amazon;Niterói;RJ;8;2024-08;Agosto;16
+#P0213;2024-08-16;2024;1002;Lucas Souza;SKU9002;Carregador Portátil;80;33;2640;Ponto Frio;Guarapari;ES;8;2024-08;Agosto;16
+#P0214;2024-08-16;2024;1001;Maria Silva;SKU9014;Tablet;1700;46;78200;Magazine Luiza;Rio de Janeiro;RJ;8;2024-08;Agosto;16
+#P0215;2024-08-16;2024;1009;Felipe Seixas;SKU9009;Notebook Modelo 1;1450;15;21750;Ponto Frio;Betim;MG;8;2024-08;Agosto;16
+#P0216;2024-08-19;2024;1009;Felipe Seixas;SKU9015;Teclado ;80;25;2000;Casas Bahia;Rio de Janeiro;RJ;8;2024-08;Agosto;19
+#P0217;2024-08-19;2024;1008;Teobaldo Junior;SKU9003;Celular Modelo 1;800;50;40000;Shoptime;Belo Horizonte;MG;8;2024-08;Agosto;19
+#P0218;2024-08-19;2024;1006;Mário Junior;SKU9005;Celular Modelo 3;1800;49;88200;Casas Bahia;Rio de Janeiro;RJ;8;2024-08;Agosto;19
+#P0219;2024-08-22;2024;1009;Felipe Seixas;SKU9010;Notebook Modelo 2;2220;48;106560;Ricardo Eletro;Guarapari;ES;8;2024-08;Agosto;22
+#P0220;2024-08-23;2024;1001;Maria Silva;SKU9011;Notebook Modelo 3;4300;47;202100;Magazine Luiza;São Paulo;SP;8;2024-08;Agosto;23
+#P0221;2024-08-24;2024;1001;Maria Silva;SKU9015;Teclado ;80;44;3520;Amazon;Campinas;SP;8;2024-08;Agosto;24
+#P0222;2024-08-25;2024;1002;Lucas Souza;SKU9005;Celular Modelo 3;1800;27;48600;Magazine Luiza;Belo Horizonte;MG;8;2024-08;Agosto;25
+#P0223;2024-08-26;2024;1002;Lucas Souza;SKU9008;Mouse;88;13;1144;Ponto Frio;Rio de Janeiro;RJ;8;2024-08;Agosto;26
+#P0224;2024-08-26;2024;1005;Tais Fernandes;SKU9006;E-Reader;250;15;3750;Ricardo Eletro;Vitória;ES;8;2024-08;Agosto;26
+#P0225;2024-08-26;2024;1006;Mário Junior;SKU9012;Smart TV;1998;35;69930;Ponto Frio;Vitória;ES;8;2024-08;Agosto;26
+#P0226;2024-08-28;2024;1009;Felipe Seixas;SKU9005;Celular Modelo 3;1800;10;18000;Kabum;Belo Horizonte;MG;8;2024-08;Agosto;28
+#P0227;2024-08-28;2024;1003;Paulo Ferreira;SKU9005;Celular Modelo 3;1800;43;77400;Magazine Luiza;São Paulo;SP;8;2024-08;Agosto;28
+#P0228;2024-08-28;2024;1009;Felipe Seixas;SKU9009;Notebook Modelo 1;1450;11;15950;Magazine Luiza;São Paulo;SP;8;2024-08;Agosto;28
+#P0229;2024-08-28;2024;1007;Alex Souza;SKU9004;Celular Modelo 2;1200;26;31200;Shoptime;Betim;MG;8;2024-08;Agosto;28
+#P0230;2024-08-29;2024;1005;Tais Fernandes;SKU9016;Webcam;130;39;5070;Amazon;Campinas;SP;8;2024-08;Agosto;29
+#P0231;2024-08-29;2024;1008;Teobaldo Junior;SKU9004;Celular Modelo 2;1200;21;25200;Magazine Luiza;São Paulo;SP;8;2024-08;Agosto;29
+#P0232;2024-08-30;2024;1009;Felipe Seixas;SKU9008;Mouse;88;16;1408;Magazine Luiza;São Paulo;SP;8;2024-08;Agosto;30
+#P0233;2024-08-30;2024;1002;Lucas Souza;SKU9004;Celular Modelo 2;1200;43;51600;Casas Bahia;Belo Horizonte;MG;8;2024-08;Agosto;30
+#P0234;2024-08-30;2024;1004;Isabela Carolina;SKU9002;Carregador Portátil;80;15;1200;Casas Bahia;Rio de Janeiro;RJ;8;2024-08;Agosto;30
+#P0235;2024-08-31;2024;1004;Isabela Carolina;SKU9003;Celular Modelo 1;800;32;25600;Carrefour;Betim;MG;8;2024-08;Agosto;31
+#P0236;2024-08-31;2024;1008;Teobaldo Junior;SKU9009;Notebook Modelo 1;1450;48;69600;Amazon;Rio de Janeiro;RJ;8;2024-08;Agosto;31
+#P0237;2024-08-31;2024;1009;Felipe Seixas;SKU9004;Celular Modelo 2;1200;27;32400;Kabum;Vitória;ES;8;2024-08;Agosto;31
+#P0238;2024-09-02;2024;1004;Isabela Carolina;SKU9011;Notebook Modelo 3;4300;15;64500;Kabum;Vitória;ES;9;2024-09;Setembro;2
+#P0239;2024-09-06;2024;1003;Paulo Ferreira;SKU9003;Celular Modelo 1;800;25;20000;Ricardo Eletro;Vitória;ES;9;2024-09;Setembro;6
+#P0240;2024-09-10;2024;1002;Lucas Souza;SKU9015;Teclado ;80;47;3760;Casas Bahia;Campinas;SP;9;2024-09;Setembro;10
+#P0241;2024-09-11;2024;1004;Isabela Carolina;SKU9008;Mouse;88;15;1320;Kabum;Niterói;RJ;9;2024-09;Setembro;11
+#P0242;2024-09-12;2024;1007;Alex Souza;SKU9009;Notebook Modelo 1;1450;37;53650;Shoptime;São Paulo;SP;9;2024-09;Setembro;12
+#P0243;2024-09-12;2024;1009;Felipe Seixas;SKU9016;Webcam;130;36;4680;Shoptime;Belo Horizonte;MG;9;2024-09;Setembro;12
+#P0244;2024-09-12;2024;1001;Maria Silva;SKU9010;Notebook Modelo 2;2220;42;93240;Ponto Frio;Belo Horizonte;MG;9;2024-09;Setembro;12
+#P0245;2024-09-13;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;45;193500;Kabum;Rio de Janeiro;RJ;9;2024-09;Setembro;13
+#P0246;2024-09-13;2024;1006;Mário Junior;SKU9004;Celular Modelo 2;1200;27;32400;Casas Bahia;São Paulo;SP;9;2024-09;Setembro;13
+#P0247;2024-09-13;2024;1002;Lucas Souza;SKU9010;Notebook Modelo 2;2220;40;88800;Magazine Luiza;Rio de Janeiro;RJ;9;2024-09;Setembro;13
+#P0248;2024-09-13;2024;1001;Maria Silva;SKU9005;Celular Modelo 3;1800;47;84600;Amazon;Guarapari;ES;9;2024-09;Setembro;13
+#P0249;2024-09-14;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;22;31900;Magazine Luiza;Guarapari;ES;9;2024-09;Setembro;14
+#P0250;2024-09-16;2024;1005;Tais Fernandes;SKU9009;Notebook Modelo 1;1450;11;15950;Casas Bahia;Vitória;ES;9;2024-09;Setembro;16
+#P0251;2024-09-16;2024;1006;Mário Junior;SKU9014;Tablet;1700;23;39100;Ricardo Eletro;São Paulo;SP;9;2024-09;Setembro;16
+#P0252;2024-09-18;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;21;90300;Shoptime;Niterói;RJ;9;2024-09;Setembro;18
+#P0253;2024-09-19;2024;1003;Paulo Ferreira;SKU9003;Celular Modelo 1;800;32;25600;Carrefour;Belo Horizonte;MG;9;2024-09;Setembro;19
+#P0254;2024-09-21;2024;1009;Felipe Seixas;SKU9006;E-Reader;250;37;9250;Carrefour;Betim;MG;9;2024-09;Setembro;21
+#P0255;2024-09-22;2024;1003;Paulo Ferreira;SKU9007;Headphone;150;30;4500;Kabum;Rio de Janeiro;RJ;9;2024-09;Setembro;22
+#P0256;2024-09-22;2024;1006;Mário Junior;SKU9015;Teclado ;80;12;960;Casas Bahia;Campinas;SP;9;2024-09;Setembro;22
+#P0257;2024-09-22;2024;1005;Tais Fernandes;SKU9003;Celular Modelo 1;800;21;16800;Ricardo Eletro;Campinas;SP;9;2024-09;Setembro;22
+#P0258;2024-09-22;2024;1002;Lucas Souza;SKU9005;Celular Modelo 3;1800;19;34200;Shoptime;Guarapari;ES;9;2024-09;Setembro;22
+#P0259;2024-09-23;2024;1006;Mário Junior;SKU9006;E-Reader;250;29;7250;Shoptime;Guarapari;ES;9;2024-09;Setembro;23
+#P0260;2024-09-23;2024;1009;Felipe Seixas;SKU9005;Celular Modelo 3;1800;40;72000;Casas Bahia;Campinas;SP;9;2024-09;Setembro;23
+#P0261;2024-09-26;2024;1007;Alex Souza;SKU9009;Notebook Modelo 1;1450;21;30450;Carrefour;São Paulo;SP;9;2024-09;Setembro;26
+#P0262;2024-09-26;2024;1006;Mário Junior;SKU9005;Celular Modelo 3;1800;37;66600;Amazon;Niterói;RJ;9;2024-09;Setembro;26
+#P0263;2024-09-27;2024;1006;Mário Junior;SKU9015;Teclado ;80;21;1680;Ricardo Eletro;Rio de Janeiro;RJ;9;2024-09;Setembro;27
+#P0264;2024-09-28;2024;1009;Felipe Seixas;SKU9006;E-Reader;250;29;7250;Shoptime;Niterói;RJ;9;2024-09;Setembro;28
+#P0265;2024-09-28;2024;1002;Lucas Souza;SKU9012;Smart TV;1998;22;43956;Casas Bahia;Vitória;ES;9;2024-09;Setembro;28
+#P0266;2024-09-29;2024;1009;Felipe Seixas;SKU9002;Carregador Portátil;80;18;1440;Ponto Frio;São Paulo;SP;9;2024-09;Setembro;29
+#P0267;2024-09-29;2024;1001;Maria Silva;SKU9002;Carregador Portátil;80;31;2480;Amazon;Belo Horizonte;MG;9;2024-09;Setembro;29
+#P0268;2024-10-01;2024;1001;Maria Silva;SKU9002;Carregador Portátil;80;32;2560;Casas Bahia;Niterói;RJ;10;2024-10;Outubro;1
+#P0269;2024-10-02;2024;1001;Maria Silva;SKU9016;Webcam;130;23;2990;Magazine Luiza;Betim;MG;10;2024-10;Outubro;2
+#P0270;2024-10-04;2024;1001;Maria Silva;SKU9016;Webcam;130;11;1430;Ponto Frio;Vitória;ES;10;2024-10;Outubro;4
+#P0271;2024-10-05;2024;1006;Mário Junior;SKU9006;E-Reader;250;50;12500;Ricardo Eletro;Niterói;RJ;10;2024-10;Outubro;5
+#P0272;2024-10-05;2024;1007;Alex Souza;SKU9009;Notebook Modelo 1;1450;19;27550;Magazine Luiza;São Paulo;SP;10;2024-10;Outubro;5
+#P0273;2024-10-06;2024;1002;Lucas Souza;SKU9004;Celular Modelo 2;1200;49;58800;Ponto Frio;Guarapari;ES;10;2024-10;Outubro;6
+#P0274;2024-10-07;2024;1005;Tais Fernandes;SKU9015;Teclado ;80;20;1600;Magazine Luiza;Niterói;RJ;10;2024-10;Outubro;7
+#P0275;2024-10-07;2024;1003;Paulo Ferreira;SKU9007;Headphone;150;41;6150;Amazon;Belo Horizonte;MG;10;2024-10;Outubro;7
+#P0276;2024-10-07;2024;1002;Lucas Souza;SKU9016;Webcam;130;34;4420;Magazine Luiza;São Paulo;SP;10;2024-10;Outubro;7
+#P0277;2024-10-09;2024;1002;Lucas Souza;SKU9002;Carregador Portátil;80;26;2080;Ricardo Eletro;Niterói;RJ;10;2024-10;Outubro;9
+#P0278;2024-10-11;2024;1002;Lucas Souza;SKU9008;Mouse;88;22;1936;Ponto Frio;Guarapari;ES;10;2024-10;Outubro;11
+#P0279;2024-10-11;2024;1005;Tais Fernandes;SKU9010;Notebook Modelo 2;2220;15;33300;Casas Bahia;Vitória;ES;10;2024-10;Outubro;11
+#P0280;2024-10-11;2024;1009;Felipe Seixas;SKU9015;Teclado ;80;41;3280;Amazon;Niterói;RJ;10;2024-10;Outubro;11
+#P0281;2024-10-12;2024;1002;Lucas Souza;SKU9001;Caixa de Som;55;35;1925;Casas Bahia;Belo Horizonte;MG;10;2024-10;Outubro;12
+#P0282;2024-10-12;2024;1007;Alex Souza;SKU9009;Notebook Modelo 1;1450;41;59450;Shoptime;São Paulo;SP;10;2024-10;Outubro;12
+#P0283;2024-10-15;2024;1001;Maria Silva;SKU9010;Notebook Modelo 2;2220;24;53280;Ricardo Eletro;Betim;MG;10;2024-10;Outubro;15
+#P0284;2024-10-15;2024;1008;Teobaldo Junior;SKU9015;Teclado ;80;20;1600;Amazon;Betim;MG;10;2024-10;Outubro;15
+#P0285;2024-10-15;2024;1005;Tais Fernandes;SKU9003;Celular Modelo 1;800;26;20800;Carrefour;Belo Horizonte;MG;10;2024-10;Outubro;15
+#P0286;2024-10-16;2024;1005;Tais Fernandes;SKU9008;Mouse;88;36;3168;Carrefour;Vitória;ES;10;2024-10;Outubro;16
+#P0287;2024-10-18;2024;1003;Paulo Ferreira;SKU9003;Celular Modelo 1;800;37;29600;Casas Bahia;Niterói;RJ;10;2024-10;Outubro;18
+#P0288;2024-10-20;2024;1009;Felipe Seixas;SKU9004;Celular Modelo 2;1200;14;16800;Ricardo Eletro;Niterói;RJ;10;2024-10;Outubro;20
+#P0289;2024-10-20;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;27;1485;Ricardo Eletro;Betim;MG;10;2024-10;Outubro;20
+#P0290;2024-10-22;2024;1001;Maria Silva;SKU9003;Celular Modelo 1;800;13;10400;Magazine Luiza;Niterói;RJ;10;2024-10;Outubro;22
+#P0291;2024-10-23;2024;1001;Maria Silva;SKU9008;Mouse;88;10;880;Shoptime;Rio de Janeiro;RJ;10;2024-10;Outubro;23
+#P0292;2024-10-23;2024;1006;Mário Junior;SKU9013;SSD;435;25;10875;Ricardo Eletro;Niterói;RJ;10;2024-10;Outubro;23
+#P0293;2024-10-23;2024;1003;Paulo Ferreira;SKU9001;Caixa de Som;55;44;2420;Amazon;Niterói;RJ;10;2024-10;Outubro;23
+#P0294;2024-10-24;2024;1008;Teobaldo Junior;SKU9013;SSD;435;36;15660;Ricardo Eletro;Rio de Janeiro;RJ;10;2024-10;Outubro;24
+#P0295;2024-10-27;2024;1001;Maria Silva;SKU9014;Tablet;1700;50;85000;Ricardo Eletro;Rio de Janeiro;RJ;10;2024-10;Outubro;27
+#P0296;2024-10-29;2024;1007;Alex Souza;SKU9003;Celular Modelo 1;800;10;8000;Amazon;Guarapari;ES;10;2024-10;Outubro;29
+#P0297;2024-10-31;2024;1008;Teobaldo Junior;SKU9008;Mouse;88;23;2024;Ricardo Eletro;Vitória;ES;10;2024-10;Outubro;31
+#P0298;2024-11-02;2024;1008;Teobaldo Junior;SKU9016;Webcam;130;23;2990;Ricardo Eletro;Niterói;RJ;11;2024-11;Novembro;2
+#P0299;2024-11-03;2024;1007;Alex Souza;SKU9011;Notebook Modelo 3;4300;26;111800;Casas Bahia;Rio de Janeiro;RJ;11;2024-11;Novembro;3
+#P0300;2024-11-04;2024;1002;Lucas Souza;SKU9014;Tablet;1700;21;35700;Magazine Luiza;Campinas;SP;11;2024-11;Novembro;4
+#P0301;2024-11-05;2024;1006;Mário Junior;SKU9002;Carregador Portátil;80;10;800;Shoptime;Betim;MG;11;2024-11;Novembro;5
+#P0302;2024-11-05;2024;1002;Lucas Souza;SKU9014;Tablet;1700;14;23800;Amazon;Rio de Janeiro;RJ;11;2024-11;Novembro;5
+#P0303;2024-11-07;2024;1004;Isabela Carolina;SKU9007;Headphone;150;34;5100;Ricardo Eletro;Betim;MG;11;2024-11;Novembro;7
+#P0304;2024-11-07;2024;1002;Lucas Souza;SKU9015;Teclado ;80;40;3200;Shoptime;Rio de Janeiro;RJ;11;2024-11;Novembro;7
+#P0305;2024-11-09;2024;1001;Maria Silva;SKU9015;Teclado ;80;18;1440;Magazine Luiza;Betim;MG;11;2024-11;Novembro;9
+#P0306;2024-11-11;2024;1001;Maria Silva;SKU9006;E-Reader;250;26;6500;Shoptime;Rio de Janeiro;RJ;11;2024-11;Novembro;11
+#P0307;2024-11-12;2024;1004;Isabela Carolina;SKU9008;Mouse;88;49;4312;Magazine Luiza;Guarapari;ES;11;2024-11;Novembro;12
+#P0308;2024-11-12;2024;1007;Alex Souza;SKU9009;Notebook Modelo 1;1450;38;55100;Ricardo Eletro;Guarapari;ES;11;2024-11;Novembro;12
+#P0309;2024-11-13;2024;1004;Isabela Carolina;SKU9010;Notebook Modelo 2;2220;18;39960;Amazon;São Paulo;SP;11;2024-11;Novembro;13
+#P0310;2024-11-13;2024;1007;Alex Souza;SKU9002;Carregador Portátil;80;38;3040;Kabum;Belo Horizonte;MG;11;2024-11;Novembro;13
+#P0311;2024-11-14;2024;1008;Teobaldo Junior;SKU9012;Smart TV;1998;34;67932;Ricardo Eletro;Guarapari;ES;11;2024-11;Novembro;14
+#P0312;2024-11-14;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;23;98900;Carrefour;Betim;MG;11;2024-11;Novembro;14
+#P0313;2024-11-15;2024;1008;Teobaldo Junior;SKU9002;Carregador Portátil;80;27;2160;Shoptime;Guarapari;ES;11;2024-11;Novembro;15
+#P0314;2024-11-15;2024;1008;Teobaldo Junior;SKU9014;Tablet;1700;10;17000;Casas Bahia;Belo Horizonte;MG;11;2024-11;Novembro;15
+#P0315;2024-11-15;2024;1009;Felipe Seixas;SKU9014;Tablet;1700;32;54400;Amazon;Guarapari;ES;11;2024-11;Novembro;15
+#P0316;2024-11-16;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;30;66600;Amazon;Vitória;ES;11;2024-11;Novembro;16
+#P0317;2024-11-17;2024;1005;Tais Fernandes;SKU9015;Teclado ;80;12;960;Ricardo Eletro;São Paulo;SP;11;2024-11;Novembro;17
+#P0318;2024-11-18;2024;1005;Tais Fernandes;SKU9016;Webcam;130;22;2860;Carrefour;Rio de Janeiro;RJ;11;2024-11;Novembro;18
+#P0319;2024-11-18;2024;1009;Felipe Seixas;SKU9003;Celular Modelo 1;800;19;15200;Kabum;Niterói;RJ;11;2024-11;Novembro;18
+#P0320;2024-11-18;2024;1007;Alex Souza;SKU9003;Celular Modelo 1;800;34;27200;Carrefour;Rio de Janeiro;RJ;11;2024-11;Novembro;18
+#P0321;2024-11-18;2024;1001;Maria Silva;SKU9001;Caixa de Som;55;31;1705;Magazine Luiza;São Paulo;SP;11;2024-11;Novembro;18
+#P0322;2024-11-20;2024;1007;Alex Souza;SKU9015;Teclado ;80;49;3920;Kabum;São Paulo;SP;11;2024-11;Novembro;20
+#P0323;2024-11-23;2024;1005;Tais Fernandes;SKU9010;Notebook Modelo 2;2220;31;68820;Amazon;Vitória;ES;11;2024-11;Novembro;23
+#P0324;2024-11-23;2024;1009;Felipe Seixas;SKU9003;Celular Modelo 1;800;17;13600;Kabum;Rio de Janeiro;RJ;11;2024-11;Novembro;23
+#P0325;2024-11-25;2024;1001;Maria Silva;SKU9011;Notebook Modelo 3;4300;19;81700;Kabum;Vitória;ES;11;2024-11;Novembro;25
+#P0326;2024-11-28;2024;1007;Alex Souza;SKU9013;SSD;435;28;12180;Ponto Frio;Betim;MG;11;2024-11;Novembro;28
+#P0327;2024-11-30;2024;1009;Felipe Seixas;SKU9011;Notebook Modelo 3;4300;37;159100;Carrefour;Vitória;ES;11;2024-11;Novembro;30
+#P0328;2024-12-02;2024;1007;Alex Souza;SKU9003;Celular Modelo 1;800;12;9600;Shoptime;Betim;MG;12;2024-12;Dezembro;2
+#P0329;2024-12-02;2024;1004;Isabela Carolina;SKU9015;Teclado ;80;36;2880;Shoptime;Betim;MG;12;2024-12;Dezembro;2
+#P0330;2024-12-03;2024;1008;Teobaldo Junior;SKU9010;Notebook Modelo 2;2220;31;68820;Magazine Luiza;Rio de Janeiro;RJ;12;2024-12;Dezembro;3
+#P0331;2024-12-04;2024;1006;Mário Junior;SKU9014;Tablet;1700;36;61200;Casas Bahia;Guarapari;ES;12;2024-12;Dezembro;4
+#P0332;2024-12-06;2024;1009;Felipe Seixas;SKU9014;Tablet;1700;22;37400;Magazine Luiza;Rio de Janeiro;RJ;12;2024-12;Dezembro;6
+#P0333;2024-12-10;2024;1003;Paulo Ferreira;SKU9014;Tablet;1700;26;44200;Amazon;Vitória;ES;12;2024-12;Dezembro;10
+#P0334;2024-12-11;2024;1009;Felipe Seixas;SKU9009;Notebook Modelo 1;1450;14;20300;Kabum;Vitória;ES;12;2024-12;Dezembro;11
+#P0335;2024-12-11;2024;1002;Lucas Souza;SKU9015;Teclado ;80;21;1680;Magazine Luiza;Vitória;ES;12;2024-12;Dezembro;11
+#P0336;2024-12-13;2024;1003;Paulo Ferreira;SKU9014;Tablet;1700;34;57800;Magazine Luiza;Betim;MG;12;2024-12;Dezembro;13
+#P0337;2024-12-16;2024;1002;Lucas Souza;SKU9015;Teclado ;80;47;3760;Magazine Luiza;Niterói;RJ;12;2024-12;Dezembro;16
+#P0338;2024-12-16;2024;1001;Maria Silva;SKU9015;Teclado ;80;50;4000;Ricardo Eletro;Niterói;RJ;12;2024-12;Dezembro;16
+#P0339;2024-12-21;2024;1005;Tais Fernandes;SKU9002;Carregador Portátil;80;26;2080;Carrefour;Vitória;ES;12;2024-12;Dezembro;21
+#P0340;2024-12-22;2024;1003;Paulo Ferreira;SKU9016;Webcam;130;33;4290;Carrefour;Campinas;SP;12;2024-12;Dezembro;22
+#P0341;2024-12-22;2024;1009;Felipe Seixas;SKU9014;Tablet;1700;33;56100;Amazon;Vitória;ES;12;2024-12;Dezembro;22
+#P0342;2024-12-25;2024;1002;Lucas Souza;SKU9008;Mouse;88;30;2640;Shoptime;Belo Horizonte;MG;12;2024-12;Dezembro;25
+#P0343;2024-12-25;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;38;55100;Kabum;Guarapari;ES;12;2024-12;Dezembro;25
+#P0344;2024-12-25;2024;1009;Felipe Seixas;SKU9004;Celular Modelo 2;1200;22;26400;Amazon;Belo Horizonte;MG;12;2024-12;Dezembro;25
+#P0345;2024-12-25;2024;1002;Lucas Souza;SKU9009;Notebook Modelo 1;1450;28;40600;Amazon;Guarapari;ES;12;2024-12;Dezembro;25
+#P0346;2024-12-25;2024;1005;Tais Fernandes;SKU9004;Celular Modelo 2;1200;25;30000;Casas Bahia;Niterói;RJ;12;2024-12;Dezembro;25
+#P0347;2024-12-27;2024;1004;Isabela Carolina;SKU9007;Headphone;150;18;2700;Amazon;Rio de Janeiro;RJ;12;2024-12;Dezembro;27
+#P0348;2024-12-27;2024;1002;Lucas Souza;SKU9012;Smart TV;1998;14;27972;Amazon;Rio de Janeiro;RJ;12;2024-12;Dezembro;27
+#P0349;2024-12-28;2024;1004;Isabela Carolina;SKU9012;Smart TV;1998;20;39960;Ponto Frio;Rio de Janeiro;RJ;12;2024-12;Dezembro;28
+#P0350;2024-12-28;2024;1008;Teobaldo Junior;SKU9004;Celular Modelo 2;1200;42;50400;Ricardo Eletro;Belo Horizonte;MG;12;2024-12;Dezembro;28
+#P0351;2024-12-31;2024;1005;Tais Fernandes;SKU9014;Tablet;1700;48;81600;Casas Bahia;Rio de Janeiro;RJ;12;2024-12;Dezembro;31

@@ -1,3 +1,4 @@
+
 #%%
 import pandas as pd
 import streamlit as st
@@ -5,8 +6,8 @@ import streamlit as st
 
 @st.cache_data(ttl=1800)
 def LoadData():
-  path = "datasets/Vendas.xlsx"
-  DF = pd.read_excel(path, skiprows = 1)
+  path = "../datasets/Vendas.csv"
+  DF = pd.read_csv(path)
 
   # Padronizando as colunas"
   DF.columns = [col.strip().capitalize() for col in DF.columns]
@@ -23,6 +24,5 @@ def LoadData():
   DF['Mes_nome'] = DF['Data_pedido'].dt.month_name(locale='pt_BR').str.capitalize()
   DF['Dia'] = DF['Data_pedido'].dt.day
   return DF
-
 
 df = LoadData()
