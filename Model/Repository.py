@@ -4,7 +4,7 @@ import streamlit as st
 
 
 @st.cache_data(ttl=1800)
-def Load_Data():
+def LoadData():
   path = "datasets/Vendas.xlsx"
   DF = pd.read_excel(path, skiprows = 1)
 
@@ -25,4 +25,4 @@ def Load_Data():
   return DF
 
 
-df = Load_Data()
+df = LoadData()

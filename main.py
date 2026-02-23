@@ -7,11 +7,11 @@ import streamlit as st
 import warnings
 warnings.filterwarnings("ignore")
 
-# locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
+#locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 # Cofiguração para o carregamento dos dados
 @st.cache_data(ttl=1800)
-def Load_Data():
+def LoadData():
   path = "datasets/Vendas.xlsx"
   DF = pd.read_excel(path, skiprows = 1)
 
@@ -32,6 +32,11 @@ def Load_Data():
   return DF
 
 
+# Carregando os dados Teste
+df = LoadData()
+representantes = sorted(df['Nome_representante'].unique())
+estados = sorted(df['Estado_cliente'].unique())
+
 # Configurando a Página do Streamlit
 st.set_page_config(
   "Dash Executivo de Vendas",
@@ -42,10 +47,6 @@ st.set_page_config(
 st.title("💯 Inteligencia de Negocios e Analises Preditivas")
 st.divider()
 
-# Carregando os dados Teste
-df = Load_Data()
-representantes = sorted(df['Nome_representante'].unique())
-estados = sorted(df['Estado_cliente'].unique())
 
 # Filtros de Analises
 st.sidebar.header("Filtros Para Analises")
