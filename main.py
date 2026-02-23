@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 # Cofiguração para o carregamento dos dados
 @st.cache_data(ttl=1800)
-def LoadData():
+def Dados():
   path = "datasets/Vendas.xlsx"
   DF = pd.read_excel(path, skiprows = 1)
 
@@ -33,7 +33,7 @@ def LoadData():
 
 
 # Carregando os dados Teste
-df = LoadData()
+df = Dados()
 representantes = sorted(df['Nome_representante'].unique())
 estados = sorted(df['Estado_cliente'].unique())
 
