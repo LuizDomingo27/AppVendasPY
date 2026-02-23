@@ -25,7 +25,7 @@ st.title("💯 Inteligencia de Negocios e Analises Preditivas")
 st.divider()
 
 # Carregando os dados Teste
-df = LD.df
+df = LD.Load_Data()
 representantes = sorted(df['Nome_representante'].unique())
 estados = sorted(df['Estado_cliente'].unique())
 
