@@ -4,15 +4,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
-import seaborn as sns
+# import seaborn as sns
 import streamlit as st
 from Model import LoadData as LD
 import warnings
 warnings.filterwarnings("ignore")
 
 # Criando o style e definindo a paleta do grafico"
-plt.style.use("seaborn-v0_8")
-sns.set_palette("tab10")
+#plt.style.use("seaborn-v0_8")
+#sns.set_palette("tab10")
 
 # Configurando a Página do Streamlit
 st.set_page_config(
