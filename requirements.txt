@@ -1,0 +1,13 @@
+numpy
+pandas
+plotly
+streamlit
+requests
+python-time
+matplotlib
+more_itertools
+openpyxl
+scikit-learn
+scypy
+statsmodels
+seaborn
