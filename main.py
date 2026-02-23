@@ -4,11 +4,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
-#import seaborn as sns
+import locale
 import streamlit as st
 import LoadData as LD
 import warnings
 warnings.filterwarnings("ignore")
+
+locale.setlocale(locale.LC_ALL, "pt-BR")
 
 # Criando o style e definindo a paleta do grafico"
 plt.style.use("seaborn-v0_8")
