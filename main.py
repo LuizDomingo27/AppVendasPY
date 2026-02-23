@@ -4,7 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
-import LoadData as LD
+from Model import Repository as rp
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -21,7 +21,7 @@ st.title("💯 Inteligencia de Negocios e Analises Preditivas")
 st.divider()
 
 # Carregando os dados Teste
-df = LD.Load_Data()
+df = rp.Load_Data()
 representantes = sorted(df['Nome_representante'].unique())
 estados = sorted(df['Estado_cliente'].unique())
 

@@ -1,11 +1,10 @@
 import pandas as pd
 import streamlit as st
-import locale
 
 
 @st.cache_data(ttl=1800)
 def Load_Data():
-  path = "Vendas.xlsx"
+  path = "datasets/Vendas.xlsx"
   DF = pd.read_excel(path, skiprows = 1)
 
   # Padronizando as colunas"
