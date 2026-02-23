@@ -4,7 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
-from .Model import Repository as rp
+from Model import Repository as rp
 import warnings
 warnings.filterwarnings("ignore")
 
