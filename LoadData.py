@@ -3,7 +3,7 @@ import streamlit as st
 
 @st.cache_data(ttl=1800)
 def Load_Data():
-  path = "Data\Vendas.xlsx"
+  path = "Vendas.xlsx"
   DF = pd.read_excel(path, skiprows = 1)
 
   # Padronizando as colunas"
