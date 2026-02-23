@@ -10,7 +10,7 @@ import LoadData as LD
 import warnings
 warnings.filterwarnings("ignore")
 
-locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
+#locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 # Criando o style e definindo a paleta do grafico"
 plt.style.use("seaborn-v0_8")
