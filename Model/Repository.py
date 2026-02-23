@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import streamlit as st
 
@@ -22,5 +23,6 @@ def Load_Data():
   DF['Mes_nome'] = DF['Data_pedido'].dt.month_name(locale='pt_BR').str.capitalize()
   DF['Dia'] = DF['Data_pedido'].dt.day
   return DF
+
 
 df = Load_Data()
