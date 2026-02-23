@@ -4,20 +4,21 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
+from Model import Repository as rp
 import warnings
 warnings.filterwarnings("ignore")
 
 #locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 # Cofiguração para o carregamento dos dados
-@st.cache_data(ttl=1800)
-def Dados():
-  path = "datasets/Vendas.csv"
-  DF = pd.read_csv(path, sep=';')
-  return DF
+#@st.cache_data(ttl=1800)
+#def Dados():
+#  path = "datasets/Vendas.csv"
+#  DF = pd.read_csv(path, sep=';')
+#  return DF
 
 # Carregando os dados Teste
-df = Dados()
+df = rp.df
 representantes = sorted(df['Nome_representante'].unique())
 estados = sorted(df['Estado_cliente'].unique())
 
