@@ -1,5 +1,8 @@
 import pandas as pd
 import streamlit as st
+import locale
+
+locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 @st.cache_data(ttl=1800)
 def Load_Data():
