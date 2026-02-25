@@ -5,19 +5,11 @@ import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
 from Model import Repository as rp
+from Model import KPIs as kp
 import warnings
+
 warnings.filterwarnings("ignore")
 
-#locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
-
-# Cofiguração para o carregamento dos dados
-#@st.cache_data(ttl=1800)
-#def Dados():
-#  path = "datasets/Vendas.csv"
-#  DF = pd.read_csv(path, sep=';')
-#  return DF
-
-# Carregando os dados Teste
 df = rp.df
 representantes = sorted(df['Nome_representante'].unique())
 estados = sorted(df['Estado_cliente'].unique())
@@ -62,8 +54,11 @@ st.divider()
 
 # Analise de desempenho
 st.subheader('📈 Analises de Desempenho')
-tab1, tab2, tab3, tab4 = st.tabs(["Regional & Comercial", "Produtos", "Série Temporal", "Simulação Crescimento"]) 
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Regional & Comercial",
+                                   "Produtos", "Série Temporal",
+                                   "Simulação Crescimento","Top 5 - 10"]) 
 
+# Representante e Estado 
 with tab1:
   col_1, col_2 = st.columns(2)
   figura_Estado = px.bar(df_Filtrado.groupby('Estado_cliente')['Valor_total_venda']
@@ -89,6 +84,7 @@ with tab1:
   col_2.plotly_chart(figura_representante,use_container_width=True)
 
 
+# Participação dos Produtos 
 with tab2:
   figura_produto = px.treemap(df_Filtrado, path=['Nome_produto'],
                   values='Valor_total_venda',
@@ -96,13 +92,15 @@ with tab2:
 
   st.plotly_chart(figura_produto,use_container_width=True)
 
+
+# Faturamento Mensal
 with tab3:
   faturamento_Mensal = df_Filtrado.groupby('Mes_ano')['Valor_total_venda'].sum().reset_index()
   figura_Line = px.line(faturamento_Mensal,
                         x='Mes_ano',
                         y='Valor_total_venda',
                         title="Evolução Mensal do Faturamento", markers=True)  
-  
+
   st.plotly_chart(figura_Line,use_container_width=True)
 
 
@@ -134,4 +132,20 @@ with tab4:
       st.plotly_chart(fig_sim, use_container_width=True)
   st.info(f"🚨O impacto real no caixa com essas alterações será de **{variacao:.2f}%** em relação ao faturamento atual.")
 
+
+# Top 5 Clientes - Top 10 Representantes
+with tab5:
+  Faturamento_Cliente = kp.dfRepresentante.head(5)  
+  figura_Cliente = px.bar(data_frame=Faturamento_Cliente,
+                           x='Nome_cliente',
+                           y='Faturamento',
+                           title= 'Top 5 CLientes' )
   
+  topthenProducts = kp.dfProducts.head(10)
+  figuraToprodutos = px.bar(data_frame=topthenProducts,
+                      x='Nome_produto',
+                      y='Faturamento',
+                      title='Top 10 Produtos Por Faturamento')
+
+  st.plotly_chart(figuraToprodutos,use_container_width=True)
+  st.plotly_chart(figura_Cliente,use_container_width=True)
