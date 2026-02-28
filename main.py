@@ -163,12 +163,13 @@ with tab5:
    st.plotly_chart(figuraToprodutos,use_container_width=True)
    st.plotly_chart(figura_Cliente,use_container_width=True)
 
+
 with tab6:
    topcolCliente, topColProduto, topColRepresentante = st.columns(3,gap="small",border=True)
    with topcolCliente:
       topcli, totalCli, perclCli = kp.TopConcentracao(kp.dfRepresentante,'Faturamento',5)
       st.metric("Top 5 Clientes Representa",f" R${topcli:,.2f}")
-      st.metric("com uma participação de ",f"{perclCli:.1%} percentual da receita")
+      st.metric("com uma participação de ",f"{perclCli:.1%} da receita")
 
    with topColRepresentante:
       repre = rp.df.groupby('Nome_representante', as_index=False).agg(Faturamento = ('Valor_total_venda','sum'))
@@ -181,3 +182,27 @@ with tab6:
       st.metric("Os top 5 Produtos Represeta ",f'R${toprod:,.2f}')
       st.metric("com uma participação de ",f'{percprod:.1%} da receita')
    
+   # Grafico para Faturamento por categoria
+   st.subheader("Faturamento por Categoria")
+   dfCategoria = kp.dfCategorizar
+   figuraCategoria = px.bar(data_frame=dfCategoria,
+               x='Faturamento',
+               y='Categoria',
+               text_auto=True).update_traces(
+                  textfont_size=15,
+                  textangle=0,
+                  textposition="outside")
+   
+   st.plotly_chart(figuraCategoria, use_container_width=True)   
+
+   #Grafico para Faturamento por Mês, Ano
+   st.subheader("Faturamento Por Mês - Ano")
+   dfMesAno = kp.dfFaturamentoMesANo
+   figuraMesAno = px.line(data_frame=dfMesAno,
+               x='Mes_nome',
+               y='Faturamento',
+               markers=True,
+               hover_name='Categoria',color='Categoria'
+            )
+
+   st.plotly_chart(figuraMesAno,use_container_width=True)

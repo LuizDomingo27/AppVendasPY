@@ -45,8 +45,58 @@ def TopConcentracao(dfRank, colFaturamento, topN=5):
    top = dfRank.head(topN)[colFaturamento].sum()
    return top, total, top/total 
 
+# Vamos criar uma categoria macro de produto com base no nome_produto
+def Categorizar_produto(nome):
+    nome = str(nome).lower()
+    if "notebook" in nome:
+        return "Notebook"
+    if "celular" in nome:
+        return "Celular"
+    if "smart tv" in nome or "tv" in nome:
+        return "Smart TV"
+    if "tablet" in nome:
+        return "Tablet"
+    if "mouse" in nome:
+        return "Mouse"
+    if "teclado" in nome:
+        return "Teclado"
+    if "ssd" in nome:
+        return "SSD"
+    if "webcam" in nome:
+        return "Webcam"
+    if "headphone" in nome:
+        return "Headphone"
+    if "carregador" in nome:
+        return "Carregador"
+    if "e-reader" in nome:
+        return "E-Reader"
+    if "caixa de som" in nome:
+        return "Caixa de Som"
+    return "Outros"
 
 
+def ProdutoCategorizado():
+   DF = rp.df
+   DF['Categoria'] = DF['Nome_produto'].apply(Categorizar_produto)
+   dfCategorizado = DF.groupby('Categoria', as_index=False).agg(
+      Faturamento = ('Valor_total_venda','sum'),
+      Quantidade = ('Quantidade_vendida','sum')
+   ).sort_values('Faturamento',ascending=True)
+   return dfCategorizado
+
+
+def Faturamento_MesANo():
+   DF = rp.df
+   DF['Categoria'] = DF['Nome_produto'].apply(Categorizar_produto)
+   df_Fatu_Mes_Cat = DF.groupby(['Ano','Mes_num','Mes_nome','Categoria'], as_index=False).agg(
+      Faturamento = ('Valor_total_venda','sum')
+   )
+   return df_Fatu_Mes_Cat
+
+
+
+dfFaturamentoMesANo = Faturamento_MesANo()
+dfCategorizar = ProdutoCategorizado()
 dfRepresentante = ClientesCanal()
 dfProducts = TopThenProducts()  
-dfFaturamentoCidade = FaturamantoCiddeCliente()  
+dfFaturamentoCidade = FaturamantoCiddeCliente() 
