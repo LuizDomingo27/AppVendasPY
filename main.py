@@ -21,7 +21,7 @@ st.set_page_config(
   page_icon='📊',
   initial_sidebar_state='expanded')
 
-st.title("💯 Inteligencia de Negocios e Analises Preditivas")
+st.title("💯 Inteligência de Negócios e Analises Preditivas")
 st.divider()
 
 
@@ -36,10 +36,9 @@ F_representante = st.sidebar.multiselect("Selecione Representante",representante
 #-------------------------------------------------------------------------------------------------------
 # Esse comando usamos para o multiselect
 df_Filtrado = df[(df["Estado_cliente"].isin(F_estados)) & (df["Nome_representante"].isin(F_representante))] 
-st.dataframe(df_Filtrado)
 
 # KPI Financeiro Metricas Principais
-st.subheader("🎯 KPI Pricipais")
+st.subheader("🎯 KPIs Principais")
 col1, col2, col3, col4 = st.columns(4)
 faturamento_total = df_Filtrado['Valor_total_venda'].sum()
 ticket_medio = df_Filtrado['Valor_total_venda'].mean()
