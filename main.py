@@ -201,9 +201,12 @@ with tab6:
    figuraMesAno = px.line(data_frame=dfMesAno,
                x='Mes_nome',
                y='Faturamento',
-               markers=True,
                hover_name='Categoria',
-               color='Categoria'
-            )
+               color='Categoria',
+               markers=True
+            ).update_layout(xaxis_title='Mês'
+            ).update_traces(mode='markers', marker=dict(size=19, symbol='circle')
+            ).update_xaxes(showgrid=False
+            ).update_yaxes(showgrid=False)
 
    st.plotly_chart(figuraMesAno,use_container_width=True)
