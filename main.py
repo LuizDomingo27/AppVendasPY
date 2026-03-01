@@ -165,7 +165,7 @@ with tab5:
 
 
 with tab6:
-   topcolCliente, topColProduto, topColRepresentante = st.columns(3,gap="small",border=True)
+   topcolCliente, topColProduto, topColRepresentante = st.columns(3, gap="small", border=True)
    with topcolCliente:
       topcli, totalCli, perclCli = kp.TopConcentracao(kp.dfRepresentante,'Faturamento',5)
       st.metric("Top 5 Clientes Representa",f" R${topcli:,.2f}")
@@ -173,13 +173,13 @@ with tab6:
 
    with topColRepresentante:
       repre = rp.df.groupby('Nome_representante', as_index=False).agg(Faturamento = ('Valor_total_venda','sum'))
-      toprepre, totalrepre,percrepre = kp.TopConcentracao(repre,'Faturamento',5)   
+      toprepre, totalrepre, percrepre = kp.TopConcentracao(repre,'Faturamento',5)   
       st.metric("Top 5 Representante Representa",f"R${toprepre:,.2f}")
       st.metric("com uma participação de",f"{percrepre:.1%} da receita")
 
    with topColProduto:
-      toprod, totprod,percprod = kp.TopConcentracao(kp.dfProducts,'Faturamento',5) 
-      st.metric("Os top 5 Produtos Represeta ",f'R${toprod:,.2f}')
+      toprod, totprod, percprod = kp.TopConcentracao(kp.dfProducts,'Faturamento',5) 
+      st.metric("Os top 5 Produtos Representa ",f'R${toprod:,.2f}')
       st.metric("com uma participação de ",f'{percprod:.1%} da receita')
    
    # Grafico para Faturamento por categoria
@@ -196,13 +196,15 @@ with tab6:
    st.plotly_chart(figuraCategoria, use_container_width=True)   
 
    #Grafico para Faturamento por Mês, Ano
-   st.subheader("Faturamento Por Mês - Ano")
    dfMesAno = kp.dfFaturamentoMesANo
+   ano = dfMesAno['Ano'].unique()[0]
+   st.subheader(f"Faturamento Por Mês - Ano {ano} da Categoria")
    figuraMesAno = px.line(data_frame=dfMesAno,
                x='Mes_nome',
                y='Faturamento',
                markers=True,
-               hover_name='Categoria',color='Categoria'
+               hover_name='Categoria',
+               color='Categoria'
             )
 
    st.plotly_chart(figuraMesAno,use_container_width=True)

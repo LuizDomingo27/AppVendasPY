@@ -45,7 +45,7 @@ def TopConcentracao(dfRank, colFaturamento, topN=5):
    top = dfRank.head(topN)[colFaturamento].sum()
    return top, total, top/total 
 
-# Vamos criar uma categoria macro de produto com base no nome_produto
+
 def Categorizar_produto(nome):
     nome = str(nome).lower()
     if "notebook" in nome:
