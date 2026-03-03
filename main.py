@@ -90,7 +90,7 @@ with tab1:
   
    with col_2:
       col_2.plotly_chart(figura_representante,use_container_width=True)
-      st.write('Já o estado de SP precisa de atenção.')
+      st.write('Já os vendedores precisamos olhar para o Mário Junior.')
 
 
 # Participação dos Produtos 
