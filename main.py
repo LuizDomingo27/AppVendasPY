@@ -30,6 +30,11 @@ st.sidebar.header("Filtros Para Analises")
 F_estados = st.sidebar.multiselect("Selecione Estado", estados,default=estados)
 F_representante = st.sidebar.multiselect("Selecione Representante",representantes,default=representantes)
 
+st.sidebar.image(image='img01.jpg', width=200)
+st.sidebar.link_button('Developement by - Luiz Domingo',
+                       "https://www.linkedin.com/in/luiz-domingo-silva-dev-dev/",
+                       )
+
 #-------------------------------------------------------------------------------------------------------
 # Esse comando usamos para o selectbox
 #df_Filtrado = df[(df["Estado_cliente"] == F_estados) & (df["Nome_representante"] == F_representante)] 
