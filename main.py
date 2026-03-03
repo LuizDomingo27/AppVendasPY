@@ -82,8 +82,15 @@ with tab1:
                               orientation= 'h',
                               title = 'Ranking Representantes') 
 
-   col_1.plotly_chart(figura_Estado,use_container_width=True)
-   col_2.plotly_chart(figura_representante,use_container_width=True)
+   with col_1:
+      st.plotly_chart(figura_Estado,use_container_width=True)
+      st.write('Observamos claramente que o estado do Rio de janeiro está com as vendas muito acima dos demais')
+      st.write('isso significa que devemos observar oque está fazendo de diferente e aplicar aos demais.')
+      st.write('Já o estado de SP precisa de atenção.')
+  
+   with col_2:
+      col_2.plotly_chart(figura_representante,use_container_width=True)
+      st.write('Já o estado de SP precisa de atenção.')
 
 
 # Participação dos Produtos 
@@ -97,28 +104,33 @@ with tab2:
 
 # Faturamento Mensal
 with tab3:
+   colfat1, colfat2 =st.columns(2)
    faturamento_Mensal = df_Filtrado.groupby('Mes_ano')['Valor_total_venda'].sum().reset_index()
    figura_Line = px.line(faturamento_Mensal,
                         x='Mes_ano',
                         y='Valor_total_venda',
                         title="Evolução Mensal do Faturamento", markers=True)  
 
-   faturamentoCidade = kp.dfFaturamentoCidade.head(4) 
-   figuraCidade = px.bar(faturamentoCidade,
+   st.plotly_chart(figura_Line,use_container_width=True)
+
+
+   with colfat1:
+      faturamentoCidade = kp.dfFaturamentoCidade.head(4) 
+      figuraCidade = px.bar(faturamentoCidade,
                         x='Cidade_cliente',
                         y='Faturamento',
                         title= 'Faturamento Top 4 Cidades', 
                       )
+      st.plotly_chart(figuraCidade, use_container_width=True)
 
-   figpiorCidades = px.bar(kp.dfFaturamentoCidade.tail(4),
+   with colfat2:
+      figpiorCidades = px.bar(kp.dfFaturamentoCidade.tail(4),
                           x='Cidade_cliente',
                           y='Faturamento',
                           title='Faturamento Top 4 - Piores Cidade') 
 
+      st.plotly_chart(figpiorCidades)
 
-   st.plotly_chart(figura_Line,use_container_width=True)
-   st.plotly_chart(figuraCidade, use_container_width=True)
-   st.plotly_chart(figpiorCidades)
 
 
 # Criando a area preditiva
@@ -152,20 +164,22 @@ with tab4:
 
 # Top 5 Clientes - Top 10 Representantes
 with tab5:
-   Faturamento_Cliente = kp.dfRepresentante.head(5)  
-   figura_Cliente = px.bar(data_frame=Faturamento_Cliente,
+   colto1,colto2 = st.columns(2)
+   with colto1:
+      Faturamento_Cliente = kp.dfRepresentante.head(5)  
+      figura_Cliente = px.bar(data_frame=Faturamento_Cliente,
                            x='Nome_cliente',
                            y='Faturamento',
                            title= 'Top 5 CLientes' )
-  
-   topthenProducts = kp.dfProducts.head(10)
-   figuraToprodutos = px.bar(data_frame=topthenProducts,
+      st.plotly_chart(figura_Cliente,use_container_width=True)
+   
+   with colto2:
+      topthenProducts = kp.dfProducts.head(10)
+      figuraToprodutos = px.bar(data_frame=topthenProducts,
                        x='Nome_produto',
                        y='Faturamento',
                        title='Top 10 Produtos Por Faturamento')
-
-   st.plotly_chart(figuraToprodutos,use_container_width=True)
-   st.plotly_chart(figura_Cliente,use_container_width=True)
+      st.plotly_chart(figuraToprodutos,use_container_width=True)
 
 
 with tab6:
@@ -215,3 +229,4 @@ with tab6:
             ).update_yaxes(showgrid=False)
 
    st.plotly_chart(figuraMesAno,use_container_width=True)
+
